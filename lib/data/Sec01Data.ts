@@ -1,43 +1,49 @@
 ﻿export const Data = [
     {
+        id: "",
         title: "",
         content: "",
         button: "",
-        img : "",
+        img: "",
     },
     {
+        id: "",
         title: "",
         content: "",
         button: "",
-        img : "",
+        img: "",
 
     },
     {
+        id: "",
         title: "",
         content: "",
         button: "",
-        img : "",
+        img: "",
 
     },
     {
+        id: "",
         title: "",
         content: "",
         button: "",
-        img : "",
+        img: "",
 
     },
     {
+        id: "",
         title: "",
         content: "",
         button: "",
-        img : "",
+        img: "",
 
     },
-        {
+    {
+        id: "",
         title: "",
         content: "",
         button: "",
-        img : "",
+        img: "",
 
     },
 ]

@@ -3,7 +3,7 @@
 
 
 import styled from "styled-components"
-import { Data } from "../../../lib/data/Sec01Data"
+import { Data } from "../../../../lib/data/Sec01Data"
 
 const Container = styled.div``
 
