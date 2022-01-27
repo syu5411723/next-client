@@ -2,6 +2,7 @@
 import Head from 'next/head'
 
 import { Data } from '../../lib/data/Sec01Data';
+import { Home } from '../../components/pages/Home';
 
 type ContextProps = {
     Data: any
@@ -29,15 +30,16 @@ export const getStaticProps = async (context) => {
 export const DataContext = createContext({} as ContextProps)
 
 const DetailPage = ({ Data }) => {
+    console.log(Data)
     return (
         <>
             <Head>
 
             </Head>
-            <DataContext.Provider value={{Data}}>
-                
+            <DataContext.Provider value={{ Data }}>
+                <Home />
             </DataContext.Provider>
-            </>
+        </>
     )
 }
 
