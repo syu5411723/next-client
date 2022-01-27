@@ -1,21 +1,13 @@
 ﻿export const Data = [
     {
-        id: "",
+        id: "1",
         title: "",
         content: "",
         button: "",
         img: "",
     },
     {
-        id: "",
-        title: "",
-        content: "",
-        button: "",
-        img: "",
-
-    },
-    {
-        id: "",
+        id: "2",
         title: "",
         content: "",
         button: "",
@@ -23,7 +15,7 @@
 
     },
     {
-        id: "",
+        id: "3",
         title: "",
         content: "",
         button: "",
@@ -31,7 +23,7 @@
 
     },
     {
-        id: "",
+        id: "4",
         title: "",
         content: "",
         button: "",
@@ -39,7 +31,15 @@
 
     },
     {
-        id: "",
+        id: "5",
+        title: "",
+        content: "",
+        button: "",
+        img: "",
+
+    },
+    {
+        id: "6",
         title: "",
         content: "",
         button: "",
