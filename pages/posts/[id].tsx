@@ -14,13 +14,14 @@ export const getStaticPaths = async () => {
             id: data.id
         }
     }))
+    return { paths, fallback: false }
 }
 
 export const getStaticProps = async (context) => {
-    const postData = await Data
+    const data = await Data
     const { id } = context.params
-    // const postData = data.filter(item => item.id === id)
-    // console.log(data.id[1])
+    const postData = data.filter(item => item.id === id);
+
     return {
         props: {
             postData,
@@ -32,7 +33,6 @@ export const getStaticProps = async (context) => {
 export const DataContext = createContext({} as ContextProps)
 
 const DetailPage = ({ postData }) => {
-    console.log(postData)
     return (
         <>
             <Head>
