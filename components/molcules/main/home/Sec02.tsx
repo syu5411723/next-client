@@ -1,5 +1,6 @@
 ﻿import React from 'react'
 import styled from 'styled-components'
+import { Sec02Image, Sec02ImageContent } from '../../../atoms/main/home/sec02'
 import { Sec02Item } from '../../../atoms/main/home/sec02/Sec02Item'
 import { Sec02Title } from '../../../atoms/main/home/sec02/Sec02Title'
 
@@ -19,6 +20,10 @@ export const Sec02 = () => {
                     {data.map(item => <Sec02Item text={item} />)}
                 </ListWrapper>
             </LeftWrapper>
+            <RightWrapper>
+                <Sec02Image img="" />
+                <Sec02ImageContent text="" content="" />
+            </RightWrapper>
         </Container>
     )
 }
