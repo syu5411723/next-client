@@ -14,36 +14,4 @@
         img: "/",
 
     },
-    // {
-    //     id: "3",
-    //     title: "",
-    //     content: "",
-    //     button: "",
-    //     img: "",
-
-    // },
-    // {
-    //     id: "4",
-    //     title: "",
-    //     content: "",
-    //     button: "",
-    //     img: "",
-
-    // },
-    // {
-    //     id: "5",
-    //     title: "",
-    //     content: "",
-    //     button: "",
-    //     img: "",
-
-    // },
-    // {
-    //     id: "6",
-    //     title: "",
-    //     content: "",
-    //     button: "",
-    //     img: "",
-
-    // },
 ]
