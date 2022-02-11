@@ -10,12 +10,12 @@ export const Sec03 = () => {
         <>
             <Container>
                 <RightWrapper>
-                    <Sec03Image />
+                    <Sec03Image img="" />
                 </RightWrapper>
                 <LeftWrapper>
-                    <Sec03Title />
-                    <Sec03Content />
-                    <Sec03Button />
+                    <Sec03Title text="" />
+                    <Sec03Content content="" />
+                    <Sec03Button text="" />
                 </LeftWrapper>
             </Container>
         </>
