@@ -1,9 +1,18 @@
-﻿import React from 'react'
+﻿import {VFC} from 'react'
+import styled from 'styled-components'
 
-export const Sec03Content = () => {
+type Props = {
+    content: string
+}
+
+const Wrapper = styled.div``
+const Text = styled.p``
+
+export const Sec03Content:VFC<Props> = ({content}) => {
     return (
-        <div>
+        <Wrapper>
+            <Text>{content}</Text>
             
-        </div>
+        </Wrapper>
     )
 }
