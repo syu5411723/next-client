@@ -3,21 +3,21 @@ import {VFC} from "react"
 
 import { Sec03Button, Sec03Content, Sec03Image, Sec03Title } from "../../../atoms/main/home/sec03"
 
-type ContainerReverce = {
-    reverce: boolean
+type ContainerReverse = {
+    reverse: boolean
 }
 
-const Container = styled.div<ContainerReverce>`
+const Container = styled.div<ContainerReverse>`
     display:flex;
-    flex-direction: ${({reverce}) => reverce ? "row-reverce" : "row"};
+    flex-direction: ${({reverse}) => reverse ? "row-reverce" : "row"};
 `
 const RightWrapper = styled.div``
 const LeftWrapper = styled.div``
 
-export const Sec03:VFC<ContainerReverce> = ({reverce}) => {
+export const Sec03:VFC<ContainerReverse> = ({reverse}) => {
     return (
         <>
-            <Container reverce={reverce}>
+            <Container reverse={reverse}>
                 <RightWrapper>
                     <Sec03Image img="" />
                 </RightWrapper>
