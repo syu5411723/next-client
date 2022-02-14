@@ -15,7 +15,7 @@ export const Home = () => {
             <Inner>
                 <Sec01 />
                 <Sec02 />
-                <Sec03 reverce={true} />
+                <Sec03 reverse={true} />
             </Inner>
         </Container>
     )
