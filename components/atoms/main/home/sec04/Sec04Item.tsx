@@ -1,16 +1,27 @@
-﻿import React from 'react';
-import styled from 'styled-components';
+﻿import {VFC} from 'react'
+import Image from 'next/image'
 
-const Wrappper = styled.div``
-const Text = styled.p``
+import styled from 'styled-components'
 
-const datas = ["", "", ""]
+type Props = {
+    img: string
+    content: string
+}
+
+const Wrapper = styled.div``
+const ImageWrapper = styled.div``
+const Content = styled.p``
 
 
-export const Sec04Item = () => {
+const Sec04Item:VFC<Props> = ({img, content}) => {
     return (
-        <>
-            {datas.map(data => <Text>{data}</Text>)}
-        </>
+        <Wrapper>
+            <ImageWrapper>
+                <Image src={img} layout="fill" objectFit="cover" />
+            </ImageWrapper>
+            <Content>{content}</Content>
+        </Wrapper>
     )
 }
+
+export default Sec04Item
