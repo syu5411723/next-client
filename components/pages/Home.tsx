@@ -14,8 +14,9 @@ export const Home = () => {
         <Container>
             <Inner>
                 <Sec01 />
-                <Sec02 />
+                <Sec02 title="" data="" img="" imgText="" content="" />
                 <Sec03 reverse={true} />
+                <Sec02 title="" data="" img="" imgText="" content=""  />
             </Inner>
         </Container>
     )

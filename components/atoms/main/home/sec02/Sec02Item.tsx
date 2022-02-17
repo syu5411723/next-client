@@ -1,16 +1,18 @@
-﻿import React from 'react';
+﻿import {VFC} from 'react';
 import styled from 'styled-components';
 
-const Wrappper = styled.div``
+type Props = {
+    text: string
+}
+
+const Wrapper = styled.div``
 const Text = styled.p``
 
-const datas = ["", "", ""]
 
-
-export const Sec02Item = () => {
+export const Sec02Item:VFC<Props> = ({text}) => {
     return (
-        <>
-            {datas.map(data => <Text>{data}</Text>)}
-        </>
+        <Wrapper>
+            <Text>{text}</Text>
+        </Wrapper>
     )
 }
