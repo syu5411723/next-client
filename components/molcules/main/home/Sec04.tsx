@@ -1,5 +1,6 @@
 ﻿import styled from "styled-components"
 import { Sec01Button } from "../../../atoms/main/home/Sec01"
+import { Sec04Buttom } from "../../../atoms/main/home/sec04/Sec04Buttom"
 import Sec04Item from "../../../atoms/main/home/sec04/Sec04Item"
 
 const listData = [
@@ -39,6 +40,7 @@ const ListWrapper = styled.div`
 `
 const ButtonWrapper = styled.div``
 const ButtonInner = styled.div``
+const ButtomWrapper = styled.div``
 
 
 export const Sec04 = () => {
@@ -53,6 +55,9 @@ export const Sec04 = () => {
                         <Sec01Button text="Shop All" />
                     </ButtonInner>
                 </ButtonWrapper>
+                <ButtomWrapper>
+                    <Sec04Buttom />
+                </ButtomWrapper>
             </Container>
         </>
     )
