@@ -2,16 +2,16 @@
 import styled from 'styled-components'
 
 type Props = {
-    text: string
+    data: any
 }
 
 const Wrapper = styled.div``
 const Text = styled.p``
 
-export const FooterMiddleHead: VFC<Props> = ({text}) => {
+export const FooterMiddleHead: VFC<Props> = ({data}) => {
     return (
         <Wrapper>
-            <Text>{text}</Text>
+            <Text>{data}</Text>
         </Wrapper>
     )
 }
