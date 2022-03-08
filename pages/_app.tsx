@@ -1,13 +1,19 @@
 import '../styles/globals.css'
+import Head from "next/head"
 
 import { AppProps } from 'next/app'
 import { AnimatePresence } from 'framer-motion'
 
-function MyApp({ Component, pageProps,  router }:AppProps) {
+function MyApp({ Component, pageProps, router }: AppProps) {
   return (
-    <AnimatePresence exitBeforeEnter initial={false}>
-      <Component {...pageProps} key={router.route} />
-    </AnimatePresence>
+    <>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
+      <AnimatePresence exitBeforeEnter initial={false}>
+        <Component {...pageProps} key={router.route} />
+      </AnimatePresence>
+    </>
   )
 }
 
