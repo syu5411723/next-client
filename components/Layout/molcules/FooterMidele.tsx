@@ -1,8 +1,8 @@
 ﻿import {VFC} from "react"
 import styled from "styled-components"
-import { FooterMenuItem } from "../atoms/middle/FooterMenuItem"
-import { FooterMiddleHead } from "../atoms/middle/FooterMiddleHead"
-import { FooterIcons } from "../atoms/up/FooterIcons"
+import { FooterMenuItem } from "../atoms/footer/middle/FooterMenuItem"
+import { FooterMiddleHead } from "../atoms/footer/middle/FooterMiddleHead"
+import { FooterIcons } from "../atoms/footer/up/FooterIcons"
 
 type Props = {
     data: any
