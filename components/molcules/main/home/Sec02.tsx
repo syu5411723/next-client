@@ -12,20 +12,20 @@ type Props = {
     imgText: string
     content: string
 }
-const data = [""]
+const data = ["",]
 
 const Container = styled.section``
 const RightWrapper = styled.div``
 const LeftWrapper = styled.div``
 const ListWrapper = styled.div``
 
-export const Sec02:VFC<Props> = ({title, content, img, imgText, data}) => {
+export const Sec02:VFC<Props> = ({title, content, img, imgText,}) => {
     return (
         <Container>
             <LeftWrapper>
                 <Sec02Title title={title} />
                 <ListWrapper>
-                    {data.map(item => <Sec02Item text={data} />)}
+                    {data.map(item => <Sec02Item text={item} />)}
                 </ListWrapper>
             </LeftWrapper>
             <RightWrapper>

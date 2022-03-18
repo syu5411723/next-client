@@ -6,27 +6,27 @@ import Sec04Item from "../../../atoms/main/home/sec04/Sec04Item"
 const listData = [
     {
         id: 1,
-        img: "",
+        img: "/img/",
         content: "",
     },
     {
         id: 2,
-        img: "",
+        img: "/img/",
         content: "",
     },
     {
         id: 3,
-        img: "",
+        img: "/img/",
         content: "",
     },
     {
         id: 4,
-        img: "",
+        img: "/img/",
         content: "",
     },
     {
         id: 5,
-        img: "",
+        img: "/img/",
         content: "",
     },
 ]
