@@ -23,7 +23,7 @@ export const Sec01 = () => {
                     <Sec01Button text="test" />
                 </LeftWrapper>
                 <RigghtWrapper>
-                    <Sec01Image img="/" />
+                    <Sec01Image img="/img/icon.jpg" />
                 </RigghtWrapper>
             </Container>
         </>
