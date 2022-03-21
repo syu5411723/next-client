@@ -2,18 +2,14 @@
 import Image from "next/image"
 import styled from 'styled-components'
 
-type Props = {
-    img:string
-}
-
 const Wrapper = styled.div`
 `
 
-export const Sec01Image:VFC<Props> = ({img}) => {
+export const Sec01Image = () => {
     return (
         <>
             <Wrapper>
-                <Image src={img} layout='fill' objectFit='cover' />
+                <Image src="/img/icon.jpg" layout='fill' objectFit='cover' />
             </Wrapper>
         </>
     )
