@@ -4,7 +4,6 @@ import Image from 'next/image'
 import styled from 'styled-components'
 
 type Props = {
-    img: string
     content: string
 }
 
@@ -14,11 +13,11 @@ const ContentWrapoer = styled.div``
 const Content = styled.p``
 
 
-const Sec04Item: VFC<Props> = ({ img, content }) => {
+const Sec04Item: VFC<Props> = ({ content }) => {
     return (
         <Wrapper>
             <ImageWrapper>
-                <Image src={img} layout="fill" objectFit="cover" />
+                <Image src="/img/icon.jpg" layout="fill" objectFit="cover" />
             </ImageWrapper>
             <ContentWrapoer>
                 <Content>{content}</Content>

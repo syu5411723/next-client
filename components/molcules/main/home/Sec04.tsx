@@ -48,7 +48,7 @@ export const Sec04 = () => {
         <>
             <Container>
                 <ListWrapper >
-                    {listData.map(data => <Sec04Item img={data.img} content={data.content} />)}
+                    {/* {listData.map(data => <Sec04Item content={data.content} />)} */}
                 </ListWrapper>
                 <ButtonWrapper>
                     <ButtonInner>

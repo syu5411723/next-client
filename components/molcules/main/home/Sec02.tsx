@@ -25,11 +25,11 @@ export const Sec02:VFC<Props> = ({title, content, img, imgText,}) => {
             <LeftWrapper>
                 <Sec02Title title={title} />
                 <ListWrapper>
-                    {data.map(item => <Sec02Item text={item} />)}
+                    {/* {data.map(item => <Sec02Item text={item} />)} */}
                 </ListWrapper>
             </LeftWrapper>
             <RightWrapper>
-                <Sec02Image img={img} />
+                <Sec02Image />
                 <Sec02ImageContent text={imgText} content={content} />
             </RightWrapper>
         </Container>

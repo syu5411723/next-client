@@ -1,14 +1,11 @@
 ﻿import {VFC} from 'react'
 import Image from "next/image"
 
-type Props = {
-    img:string
-}
 
-export const Sec02Image:VFC<Props> = ({img}) => {
+export const Sec02Image = () => {
     return (
         <>
-            <Image src={img} layout="fill" objectFit="cover"  />
+            <Image src="/img/icon.jpg" layout="fill" objectFit="cover"  />
         </>
     )
 }

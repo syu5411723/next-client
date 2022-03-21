@@ -19,7 +19,7 @@ export const Sec03:VFC<ContainerReverse> = ({reverse}) => {
         <>
             <Container reverse={reverse}>
                 <RightWrapper>
-                    <Sec03Image img="" />
+                    <Sec03Image />
                 </RightWrapper>
                 <LeftWrapper>
                     <Sec03Title text="" />

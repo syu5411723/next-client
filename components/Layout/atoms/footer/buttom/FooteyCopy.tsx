@@ -17,7 +17,7 @@ export const FooteyCopy = () => {
             <UpWrapper>
                 <CopyText></CopyText>
                 <List>
-                    {Datas.map((item) => <Item>{item}</Item>)}
+                    {/* {Datas.map((item) => <Item>{item}</Item>)} */}
                 </List>
             </UpWrapper>
             <BottomWrapper>
