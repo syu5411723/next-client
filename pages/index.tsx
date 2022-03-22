@@ -4,9 +4,9 @@ import { Home } from '../components/pages/Home'
 
 const index = () => {
   return (
-    <Layout>
+    <>
       <Home />
-    </Layout>
+    </>
   )
 }
 
