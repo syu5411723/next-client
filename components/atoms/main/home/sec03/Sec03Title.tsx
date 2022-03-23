@@ -7,7 +7,7 @@ type Props = {
 const Wrapper = styled.div``
 const Text = styled.p``
 
-export const Sec03Title:VFC<Props> = (text) => {
+export const Sec03Title:VFC<Props> = ({text}) => {
     return (
         <Wrapper>
             <Text>{text}</Text>
