@@ -8,7 +8,9 @@ type Props = {
 }
 
 const Wrapper = styled.div``
-const ImageWrapper = styled.div``
+const ImageWrapper = styled.div`
+    width:100px;
+`
 const ContentWrapoer = styled.div``
 const Content = styled.p``
 
