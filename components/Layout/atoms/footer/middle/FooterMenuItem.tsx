@@ -11,7 +11,7 @@ const Text = styled.p``
 export const FooterMenuItem = ({data}) => {
     return (
         <Wrapper>
-                        {/* {data.map(item => <Text>{item.text}</Text>)} */}
+                        {data.map(item => <Text>{item.text}</Text>)}
         </Wrapper>
     )
 }
