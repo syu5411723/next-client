@@ -11,7 +11,7 @@ export const Sec01Image = () => {
     return (
         <>
             <Wrapper>
-                <Image src="/img/icon.jpg" layout='fill' objectFit='cover' />
+                {/* <Image src="/img/icon.jpg" layout='fill' objectFit='cover' /> */}
             </Wrapper>
         </>
     )
