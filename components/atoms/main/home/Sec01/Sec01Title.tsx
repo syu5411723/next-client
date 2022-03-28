@@ -9,15 +9,15 @@ type Props = {
 const TitleWrapper = styled(motion.div)``
 
 const titleV = {
-    hidden: {x: -20, y: 0},
-    visible: {x: 0, y: 0},
+    hidden: {opacity: 0},
+    visible: {opacity: 1,transition:{duration:0.4}}
 }
 
 export const Sec01Title:VFC<Props> = ({title}) => {
     return (
         <TitleWrapper
             variants={titleV}
-            initial="hidden"
+            initial='hidden'
             animate="visible"
         >
             {title}
